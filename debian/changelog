@@ -1,5 +1,13 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-op-go-logging (1+git20160315.970db52-2) unstable; urgency=medium
 
-  * Initial release
+  * Source-only upload for migration to testing
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Anthony Fok <foka@debian.org>  Sun, 08 Mar 2020 06:23:49 -0600
+
+golang-github-op-go-logging (1+git20160315.970db52-1) unstable; urgency=medium
+
+  * Initial release (Closes: #952524)
+  * Skip failed TestLogCallpath with 0001-skip-TestLogCallpath.patch,
+    see https://github.com/op/go-logging/issues/138
+
+ -- Anthony Fok <foka@debian.org>  Wed, 26 Feb 2020 15:07:09 -0700
